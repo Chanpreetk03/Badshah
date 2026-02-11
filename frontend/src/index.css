@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thoda sa background color taaki white cards alag dikhein */
+body {
+  background-color: #f3f4f6; 
+}

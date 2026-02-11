@@ -1,0 +1,36 @@
+# --- Global / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- Python Backend ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+backend/env/
+*.so
+
+# Database (We don't want to commit the live DB)
+*.db
+*.sqlite3
+backend/chroma_db/
+
+# --- React Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- SECURITY (CRITICAL) ---
+# Never commit your API keys!
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env

@@ -1,3 +1,5 @@
+# 🏰 The Badshah Project: Architecture & Entity Documentation
+
 ## 1. Project Overview
 
 
